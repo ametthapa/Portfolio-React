@@ -110,7 +110,7 @@ ul{
   color:#fff;
   height: 300px;
   width: 300px;
-  border-radius: 130px 130px 130px 0;
+  border-radius: 50% 50% 50% 0;
   position: absolute;
   bottom:0;
   display: none;
@@ -123,4 +123,76 @@ ul{
   flex-direction: column;
   align-items: center;
   scale: 0.98;
+}
+
+
+.moreworks{
+  background-color: #212529;
+  min-height: 15vh;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services{
+  max-width: 90%;
+  margin: auto;
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 100;
+  
+
+}
+
+.servies-category{
+  padding: 50px;
+}
+
+.icon{
+  color:rgb(88, 199, 236);
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.servies-category h3{
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-size: 100;
+}
+
+.servies-category p{
+  font-size: 15px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.starttalking{
+  min-height: 70vh;
+  background-color: rgb(88, 199, 236);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.starttalking h2{
+  padding: 0 0 40px;
+  font-size: 45px;
+
+}
+.starttalking-btn{
+  padding: 15px 35px;
+  color: #fff;
+  background-color: rgb(88, 199, 236);
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.starttalking-btn:hover{
+  color:rgb(88, 199, 236);
+  background-color: #fff;
+  transition: 0.3s ease;
 }
